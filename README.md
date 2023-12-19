@@ -3,7 +3,7 @@
 SDL2游戏开发教程：[SDL2 游戏开发最小知识栈 - 没事造轮子](https://meishizaolunzi.com/sdl2-you-xi-kai-fa-zui-xiao-zhi-shi-zhan/)  
 项目环境配置： [SDL2+2048小游戏开发-环境配置 | Mind City](https://invisiphantom.github.io/Skill/SDL2+2048%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/)  
 项目代码详解：[SDL2+2048小游戏开发-代码详解 | Mind City](https://invisiphantom.github.io/Skill/SDL2+2048%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91-%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3/)  
-项目源代码：[Invisiphantom/2048-Table](https://github.com/Invisiphantom/2048-Table)  
+项目源代码：[Invisiphantom/Game-2048](https://github.com/Invisiphantom/Game-2048)   
   
 - 相关项目：[Invisiphantom/Game-Tetris](https://github.com/Invisiphantom/Game-Tetris)  
 
@@ -235,4 +235,3 @@ class Game2048 : public GameMechanic {
 #### Summary  
 通过GameModule、GameMechanic和Game2048三个类的组合，实现了一个简单的2048游戏  
 并且此架构可以很方便地扩展到其他游戏上，只需要实现GameMechanic的三个接口函数即可
-

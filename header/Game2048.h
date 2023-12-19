@@ -73,7 +73,7 @@ class Game2048 : public GameMechanic {
     void unloadResources();  // 释放游戏资源
 
     /* Game2048-Interface.cpp */
-    void processGameEvent(const SDL_Event evt);  // 处理键鼠事件
-    void updateGame(const float ms);             // 更新游戏时间
-    void renderGame() const;                     // 渲染游戏界面
+    void processGameEvent(const SDL_Event evt) override;  // 处理键鼠事件
+    void updateGame(const float ms) override;             // 更新游戏时间
+    void renderGame() const override;                     // 渲染游戏界面
 };
